@@ -217,16 +217,19 @@ Uint8List _encodeInstructions(
     for (final PathCommand command in path.commands) {
       switch (command.type) {
         case PathCommandType.move:
+              print('moveto');
           final MoveToCommand move = command as MoveToCommand;
           controlPointTypes.add(ControlPointTypes.moveTo);
           controlPoints.addAll(<double>[move.x, move.y]);
           break;
         case PathCommandType.line:
+              print('lineto')
           final LineToCommand line = command as LineToCommand;
           controlPointTypes.add(ControlPointTypes.lineTo);
           controlPoints.addAll(<double>[line.x, line.y]);
           break;
         case PathCommandType.cubic:
+              print('cubic');
           final CubicToCommand cubic = command as CubicToCommand;
           controlPointTypes.add(ControlPointTypes.cubicTo);
           controlPoints.addAll(<double>[
