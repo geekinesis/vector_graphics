@@ -29,14 +29,13 @@ dev_dependencies:
     git:
       url: https://github.com/geekinesis/vector_graphics.git
       path: packages/vector_graphics
-      ref: 2cbfcd3256e9f584be4a3971fe2965a97900aef7  #
-
+      ref: 2cbfcd3256e9f584be4a3971fe2965a97900aef7  #   
 
 # Comment out before publishing
 dependency_overrides:
   vector_graphics:
     path: ../vector_graphics
- vector_graphics_codec:
+  vector_graphics_codec:
     path: ../vector_graphics_codec
 
 platforms:
