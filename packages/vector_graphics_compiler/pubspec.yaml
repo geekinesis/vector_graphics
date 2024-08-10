@@ -29,10 +29,10 @@ dev_dependencies:
 
 # Comment out before publishing
 dependency_overrides:
-  vector_graphics:
-    path: ../vector_graphics
-  vector_graphics_codec:
-    path: ../vector_graphics_codec
+ # vector_graphics:
+  #  path: ../vector_graphics
+  #vector_graphics_codec:
+   # path: ../vector_graphics_codec
 
 platforms:
   android:
