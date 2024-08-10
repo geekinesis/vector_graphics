@@ -23,11 +23,11 @@ dev_dependencies:
       path: packages/vector_graphics_compiler
       ref: 2cbfcd3256e9f584be4a3971fe2965a97900aef7  #
 # Comment out before publishing
-dependency_overrides:
-  vector_graphics_codec:
-    path: ../vector_graphics_codec
-  vector_graphics_compiler:
-    path: ../vector_graphics_compiler
+#dependency_overrides:
+#  vector_graphics_codec:
+#    path: ../vector_graphics_codec
+#  vector_graphics_compiler:
+#    path: ../vector_graphics_compiler
 
 platforms:
   android:
