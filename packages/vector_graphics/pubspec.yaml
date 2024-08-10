@@ -14,8 +14,9 @@ dependencies:
   vector_graphics_codec: 1.1.11+1
   vector_graphics_compiler:
     git:
-      url: https://github.com/geekinesis/vector_graphics_compiler.git
-      ref: mains
+      url: https://github.com/geekinesis/vector_graphics.git
+      path: packages/vector_graphics_compiler
+      ref: 2cbfcd3256e9f584be4a3971fe2965a97900aef7  #
 
 dev_dependencies:
   flutter_test:
