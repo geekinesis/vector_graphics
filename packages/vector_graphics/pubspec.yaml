@@ -17,7 +17,10 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^1.0.0
-  vector_graphics_compiler: 1.1.11+1
+    vector_graphics_compiler:
+    git:
+      url: https://github.com/geekinesis/vector_graphics_compiler.git
+      ref: mains
 
 # Comment out before publishing
 dependency_overrides:
